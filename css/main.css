@@ -12576,3 +12576,29 @@ a.pswp__share--download:hover {
   #highlight_harikatha{
     color:white;
   }
+
+
+  .centerItemsInGrid{
+    display: grid;
+    place-items: center;
+    grid-auto-flow: column;
+    grid-template-columns: 100%;
+    grid-template-areas: "contact1" "contact2";
+    padding: 0% 15%;
+  }
+
+  .itemInGrid{
+    width:100%;
+    align-self: start;
+    justify-self: center;
+    text-align: center;
+  }
+
+  #contact1{
+    grid-area:contact1;
+  }
+
+
+  #contact2{
+    grid-area:contact2;
+  }
