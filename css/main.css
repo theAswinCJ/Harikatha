@@ -12574,7 +12574,13 @@ a.pswp__share--download:hover {
 
 
   #highlight_harikatha{
-    color:white;
+    font-size:22px;
+    font-weight:500;
+  }
+
+  #highlight_stories{
+    color:#F90473;
+    font-weight:500;
   }
 
 
@@ -12601,4 +12607,16 @@ a.pswp__share--download:hover {
 
   #contact2{
     grid-area:contact2;
+  }
+
+#phoneNumber{
+display:grid;
+grid-gap:20px;
+justify-items:center;
+text-align:center;
+margin-top:30px;
+}
+
+  .fontsize{
+font-size:24px;
   }
